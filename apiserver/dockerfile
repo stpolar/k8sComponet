@@ -1,2 +1,2 @@
-From k8s.gcr.io/kube-apiserver-amd64:v1.9.1
+From gcr.io/google_containers/kube-apiserver-amd64:v1.9.2
 MAINTAINER polarwu <547636195@qq.com>

@@ -1,0 +1,2 @@
+From k8s.gcr.io/etcd-amd64:3.1.10
+MAINTAINER polarwu <547636195@qq.com>

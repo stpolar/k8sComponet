@@ -1,0 +1,2 @@
+From k8s.gcr.io/k8s-dns-kube-dns-amd64:1.14.7
+MAINTAINER polarwu <547636195@qq.com>

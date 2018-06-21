@@ -1,0 +1,2 @@
+From quay.io/coreos/k8s-prometheus-adapter-amd64:v0.2.0
+MAINTAINER polarwu <547636195@qq.com>

@@ -1,0 +1,2 @@
+From docker.io/jaegertracing/all-in-one:1.5
+MAINTAINER polarwu <547636195@qq.com>

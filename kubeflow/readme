@@ -1,0 +1,31 @@
+kubeflow version: v3.0.1
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:pytorch-operator-v0.3.0
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:pytorch-operator-v0.3.0 gcr.io/kubeflow-images-public/pytorch-operator:v0.3.0
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:tf_operator-v0.3.0
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:tf_operator-v0.3.0 gcr.io/kubeflow-images-public/tf_operator:v0.3.0
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:katib-frontend-v0.1.2-alpha-45-g3dce496
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:katib-frontend-v0.1.2-alpha-45-g3dce496 gcr.io/kubeflow-images-public/katib/katib-frontend:v0.1.2-alpha-45-g3dce496
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:modeldb-backend-v0.2.0
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:modeldb-backend-v0.2.0 gcr.io/kubeflow-images-public/modeldb-backend:v0.2.0
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:studyjob-controller-latest
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:studyjob-controller-latest katib/studyjob-controller
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:suggestion-bayesianoptimization-v0.1.2-alpha-45-g3dce496
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:suggestion-bayesianoptimization-v0.1.2-alpha-45-g3dce496 gcr.io/kubeflow-images-public/katib/suggestion-bayesianoptimization:v0.1.2-alpha-45-g3dce496
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:suggestion-grid-v0.1.2-alpha-45-g3dce496
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:suggestion-grid-v0.1.2-alpha-45-g3dce496 gcr.io/kubeflow-images-public/katib/suggestion-grid:v0.1.2-alpha-45-g3dce496
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:suggestion-hyperband-v0.1.2-alpha-45-g3dce496
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:suggestion-hyperband-v0.1.2-alpha-45-g3dce496 gcr.io/kubeflow-images-public/katib/suggestion-hyperband:v0.1.2-alpha-45-g3dce496
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:suggestion-random-v0.1.2-alpha-45-g3dce496
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:suggestion-random-v0.1.2-alpha-45-g3dce496 gcr.io/kubeflow-images-public/katib/suggestion-random:v0.1.2-alpha-45-g3dce496
+
+docker pull registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:vizier-core-v0.1.2-alpha-45-g3dce496
+docker tag registry.cn-shenzhen.aliyuncs.com/polar/kubeflow:vizier-core-v0.1.2-alpha-45-g3dce496 gcr.io/kubeflow-images-public/katib/vizier-core:v0.1.2-alpha-45-g3dce496

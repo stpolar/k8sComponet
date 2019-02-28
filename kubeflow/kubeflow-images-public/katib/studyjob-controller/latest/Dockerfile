@@ -1,2 +1,2 @@
-From gcr.io/kubeflow-images-public/katib/studyjob-controller
+From katib/studyjob-controller
 MAINTAINER polarwu <547636195@qq.com>

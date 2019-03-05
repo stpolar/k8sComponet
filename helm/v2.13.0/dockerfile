@@ -1,0 +1,2 @@
+From gcr.io/kubernetes-helm/tiller:v2.13.0
+MAINTAINER polarwu <547636195@qq.com>
